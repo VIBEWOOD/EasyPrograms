@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&family=Press+Start+2P&family=Roboto:wght@300&display=swap');
+.swiper * {
+
+    font-family: 'Roboto';
+    text-shadow: 5px 3px #222;
+}
+
+.swiper {
+
+    width: 100%;
+    height: 500px;
+    background-color: #181818;
+}
+
+.swiper-slide img {
+
+    width: 100%;
+}
+
+.swiper-slide:hover {
+
+    transition: .5s;
+    opacity: 0.7;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+
+    color: white;
+    text-shadow: none;
+}
+
+.swiper .swiper-button-prev:hover, .swiper .swiper-button-next:hover {
+
+    transition: .5s;
+    color: #202020;
+}
+.swiper .swiper-pagination-bullet {
+
+    width: 30px;
+    height: 6px;
+    border-radius: 5px;
+}
+
+.swiper .swiper-pagination-bullet-active {
+
+    background-color: #fff;
+}
+
+.swiper-slide h2 {
+
+    position: absolute;
+    bottom: 30px;
+    left: 12px;
+    font-size: 27px;
+}
+
+.swiper-slide p {
+
+    position: absolute;
+    bottom: 8px;
+    left: 14px;
+    font-size: 17px;
+}
